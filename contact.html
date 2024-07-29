@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendy fusion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Trendy fusion</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">collections</a></p>
+            <p class="navbar-link"><a href="contact.html">contact</a></p>
+
+        </div>
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+
+    </nav>
+    <!--Side Navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">contact</a></p>
+
+        </div>
+    </div>
+
+    <!--details-->
+    <div class="contact-container">
+        <h2 style="margin-bottom: 25px;">Contact Us</h2>
+        <div class="detail-1">
+            <p style="margin-bottom: 5px;">Name:</p>
+            <input type="text">
+        </div>
+
+        <div class="detail-2">
+            <p style="margin-bottom: 5px;">Email:</p>
+            <input type="text">
+
+        </div>
+
+        <div class="detail-3">
+            <p style="margin-bottom: 5px;">Message:</p>
+            <input type="text">
+
+        </div>
+        <button>Submit</button>
+
+    </div>
+
+   
+
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext">Trendy fusion</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quaerat.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+        <p>@ 2024 Trendyfusion.com</p>
+
+    </div>
+
+
+
+    <script src="collection.js"></script>
+</body>
+
+</html>
